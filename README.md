@@ -1,7 +1,7 @@
 # web_static
 * 作者：邬畏畏  版权所有<br><br>
 * 通用前端框架及设计，参见 【前端架构设计】.pptx 
-
+<br><br><br>
 ### 项目启动
 * 1.命令行进入webApp目录
 * 2.npm install             //安装依赖包 node-basis ,node-basis是一个类似express的插件
