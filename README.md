@@ -4,7 +4,7 @@
 
 ### 项目启动
 * 1.命令行进入webApp目录
-* 2.npm install  //安装依赖包 node-basis
+* 2.npm install             //安装依赖包 node-basis ,node-basis是一个类似express的插件
 * 3.npm start 或 node app.js
 * 4.localhost/index.html
 
