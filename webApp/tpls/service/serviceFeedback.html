@@ -1,0 +1,28 @@
+<div class="serviceFeedbackBox">
+	<div class="listFeedbackBoxBox">
+		<div class="listContentBox" id="listContentBox">
+			<dl id="listComponent" style="display: none;">
+				<dt>{{userLogo}}</dt>
+				<dd>
+					<em>{{createTime}}</em>
+					<h2>{{title}}</h2>
+					<p class="{{contentBool}}">{{content}}</p>
+					<div class="uploadImgBox {{showUpload}}">
+						<ul class="border-bottom-color">
+							{{imgComponent}}
+						</ul>
+					</div>
+					<div class="uploadAttachmentBox {{showUpload}}">
+						<ul class="serviceRelatedListBox" id="listBox">
+							{{attachmentComponent}}
+						</ul>
+					</div>
+					<div class="replyBox {{showReply}}">{{replyText}}</div>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<div class="bottomBtn border-top-color">
+		<a href="#/addFeedback">我要反馈</a>
+	</div>
+</div>

@@ -1,0 +1,224 @@
+/*
+write by wuweiwei(邬畏畏)
+department:glodon;
+
+说明：首页样式文件
+*/
+.indexBox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+nav{
+	background-color: #F9F9F9;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 2.4rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+}
+nav div{
+	float: left;
+	width:25%;
+	height: 100%;
+	position: relative;
+	flex:1;
+}
+nav div i{
+	display: block;
+	width:1.3333rem;
+	height:1.3333rem;
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	top:0.2666rem;
+	transform: translate(-50%);
+}
+nav div i.nav-design{
+	background-image:url(../images/index/nav-icon-1.png);
+}
+nav div i.nav-model{
+	background-image:url(../images/index/nav-icon-2.png);
+}
+nav div i.nav-cost{
+	background-image:url(../images/index/nav-icon-3.png);
+}
+nav div i.nav-quality{
+	background-image:url(../images/index/nav-icon-4.png);
+}
+
+nav div span{
+	display: block;
+	width:1.40625rem;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	bottom:0.2666rem;
+	font-size: 0.3466rem;
+	color: #8E8E8E;
+	letter-spacing: 0;
+}
+.sideMargin{
+	margin-left: 0.3125rem; /*左右边距*/
+	margin-right: 0.3125rem; /*左右边距*/
+}
+.sidePad{
+	padding-bottom: 0.826rem;
+}
+.sidePad .nullData{
+	position: relative;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0.373rem;
+	bottom: 0;
+	transform: translate(0,0);
+	-ms-transform: translate(0,0);
+	-webkit-transform: translate(0,0);
+	-o-transform: translate(0,0);
+	-moz-transform: translate(0,0);
+}
+.sidePad a{
+	font-size: 0.32rem;
+	color: #B8B8B8;
+	letter-spacing: 0;
+	text-decoration: none;
+}
+article{
+	width: 100%;
+	height: 100%;
+	padding-top:  2.4rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+article dl{
+	width: 100%;
+	height:auto;
+	background: #fff;
+}
+article dl dt{
+	height: 0.8rem;
+	background: rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	padding:0 2.8%; /*左右边距*/
+}
+article dl dt label,article dl dt a{
+	display: block;
+}
+article dl dt label{
+	height: 0.8rem;
+	line-height: 0.8rem;
+	float: left;
+	font-size: 0.32rem;
+	color: #4E4E4E;
+	letter-spacing: 0;
+}
+article dl dt a{
+	height: 0.8rem;
+	line-height: 0.8rem;
+	float: right;
+	font-size: 0.32rem;
+	color: #4E4E4E;
+	letter-spacing: 0;
+}
+
+article dl dd{
+	height: auto;
+	min-height: 1.2rem;
+	position: relative;
+}
+article dl dd .indexToDoListComponent{
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding-left:2.8%; /*左右边距*/
+}
+article dl dd i{
+	display: block;
+	width:  0.16rem;
+	height: 0.16rem;
+	background-image: url(../images/index/circle.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.54rem;
+}
+article dl dd i.noRead{
+	display: none;
+}
+article dl dd p{
+	margin-left: 0.5332rem;
+	padding-top: 0.3733rem;
+	margin-bottom: 0.3733rem;
+	height: auto;
+	max-height: 0.96rem;
+	font-size: 0.3733rem;
+	color: #333333;
+	letter-spacing: 0;
+	line-height: 0.48rem;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	padding-right:0.453rem; /*左右边距*/
+}
+article dl dd.announcement{
+	height: 1.866rem;
+}
+article dl dd.announcement i{
+	margin-top: 0.56rem;
+}
+article dl dd.announcement p{
+	padding-top: 0.4533rem;
+}
+article dl dd .info{
+	height: 0.7466rem;
+	margin-left: 0.5332rem;
+	padding-bottom: 0.4rem;
+	display: flex;
+}
+
+article dl dd .info span,article dl dd .info label{
+	display: block;
+	box-sizing: border-box;
+}
+article dl dd .info span{
+	background-image: url(../images/index/icon-time.png);
+	background-repeat: no-repeat;
+	background-size:0.32rem 0.32rem;
+	padding-left: 0.53rem;
+	background-position: 0 center;
+	height: 0.32rem;
+	line-height: 0.32rem;
+	font-size: 0.32rem;
+	color: #666666;
+	flex:1;
+}
+article dl dd .info span.infoEndTime{
+	padding-left: 0;
+}
+article dl dd .info span.noIcon{
+	background: none;
+}
+article dl dd .info label{
+	margin-right:1.718rem;
+	padding-left: 0.53rem;
+	font-size: 0.32rem;
+	color: #666666;
+	letter-spacing: 0;
+	height: 0.32rem;
+	line-height: 0.32rem;
+}
+.scrollIndexBox{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}

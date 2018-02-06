@@ -1,0 +1,61 @@
+<div class="indexBox">
+   <nav class="border-bottom-color">
+       <div class="designBox">
+           <i class="nav-design"></i>
+           <span>Design</span>
+       </div>
+       <div>
+        <a href="http://mkh.wanda-dev.cn:81/MobileVendor/module/indextask/mkhmonth.html ">
+          <i class="nav-model"></i>
+          <span>model</span>
+        </a>
+       </div>
+       <div>
+           <i class="nav-cost"></i>
+           <span>cost</span>
+       </div>
+       <div>
+           <i class="nav-quality"></i>
+           <span>quality</span>
+       </div>
+   </nav>
+   <article>
+    <div class="scrollIndexBox">
+        <dl>
+            <dt class="sidePad border-bottom-color">
+                <label>待办</label>
+                <a href="#/todoList">更多</a>
+            </dt>
+            <dd class="sidePad" id="todoBox">
+                <!-- 模板 对应controller /js/app/index/App.Index.js -->
+                <div id="todo" class="indexToDoListComponent" data-url="{{pcUrl}}" data-id="{{id}}" style="display:none;">
+                    <i class="{{noRead}}">&nbsp;</i><p>[{{status}}级]{{title}}</p>
+                    <div class="info {{noBorder}}">
+                      <span class="fl">开始：{{planStartDate}}</span>
+                      <span class="fl infoEndTime noIcon">完成：{{planFinishDate}}</span>
+                    </div>
+                </div>
+                <!-- end -->
+            </dd>
+        </dl>
+        <dl class="margin-top20px">
+            <dt class="sidePad border-bottom-color">
+                <label>公告</label>
+                <a href="#/noticeList">更多</a>
+            </dt>
+            <dd class="sidePad" id="broadcastBox">
+                    <!-- 模板 对应controller /js/app/index/App.Index.js -->
+                    <div id="broadcast" class="indexToDoListComponent" style="display:none;">
+                        <a href="#/noticeDetail/{{id}}/index" {{target}}>
+                            <i class="{{noRead}}">&nbsp;</i><p>{{title}}</p>
+                            <div class="info {{noBorder}}">
+                                <span class="fl">{{publishTime}}</span>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end -->
+            </dd>
+        </dl>
+    </div>
+   </article> 
+</div>

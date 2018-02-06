@@ -1,0 +1,562 @@
+/*项目列表页面样式*/
+.m_ProjectsBox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	// background: #fff;
+	overflow: hidden;
+}
+.m_ProjectsBox .m_common_search .m_common_search_relative{
+	padding-right: 1.4666rem;
+}
+.m_ProjectsBox .m_common_search .m_ProjectsHeightSearchBtn{
+	width: 1.2rem;
+	height: 1.2rem;
+	display: block;
+	background: url("../images/project/height_search.png") center no-repeat #FFFFFF;
+	background-size: 0.5333rem;
+	border: 1px solid rgba(184,184,184,0.50);
+	border-radius: 0.08rem;
+	position: absolute;
+	right: 0.2666rem;
+	top: 0.2666rem;
+}
+.m_ProjectsBox .m_common_search .m_ProjectsHeightSearchBtn a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.m_ProjectsBox .m_ProjectsContentBox{
+	width: 100%;
+	height: 100%;
+	padding-top: 1.733rem;
+	overflow: hidden;
+}
+.m_ProjectsBox .m_ProjectsContentBox .m_ProjectsListBox{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.m_ProjectsBox .m_ProjectsContentBox .m_ProjectsListBox .m_ProjectsListBox_scroll{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+// ul.projectListClass{
+// 	width: 100%;
+// 	height: auto;
+// 	padding-left: 0.4rem;
+// 	background: #fff;
+// 	box-sizing: border-box;
+// }
+ul.projectListClass li{
+	width: 100%;
+	height: 1.866rem;
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+	background: #fff;
+	overflow: hidden;
+}
+ul.projectListClass li a{
+	display: inline-block;
+	width: 100%;
+	padding: 0.25rem 0;
+	position: relative;
+}
+ul.projectListClass li .m_list_logo{
+	width: 1.333rem;
+	height: 1.333rem;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+	margin-right: 0.4rem;
+}
+ul.projectListClass li .m_list_logo img{
+	width: 100%;
+	height: 100%;
+}
+ul.projectListClass li dl{
+	float: left;
+}
+ul.projectListClass li dl dt{
+	height: 0.6666rem;
+	line-height: 0.6666rem;
+	font-size: 0.3733rem;
+	color: #333333;
+}
+ul.projectListClass li dl dt span{
+	color: #21528C;
+}
+ul.projectListClass li dl dd{
+	height: 0.6666rem;
+	line-height: 0.6666rem;
+	font-size: 0.32rem;
+	color: #666666;
+}
+ul.projectListClass li a:after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0.32rem;
+	height: 0.32rem;
+	right: 0.4rem;
+	top: 0.733rem;
+	background: url("../images/comm/arrow_right.png") center no-repeat;
+	background-size: 100%;
+}
+/*项目列表页面样式*/
+/*项目底下文件列表页面样式*/
+.projectBox{
+	width: 100%;
+	height: 100%;
+	// background: #fff;
+	position: relative;
+}
+.projectBox .m_common_search{
+	top:1.8666rem;
+}
+.projectBox .m_common_search .m_common_search_relative .m_common_search_input_box input{
+	
+}
+.projectBox .projectContentBox{
+	width: 100%;
+	height: 100%;
+	padding-top: 3.5726rem;
+	position: relative;
+}
+.projectBox .projectContentBox .projectContentScrollBox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.projectBox .projectContentBox .projectContentScrollBox ul{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	position: relative;
+	padding-bottom: 0;
+}
+/*项目底下文件列表页面样式*/
+/**项目列表高级搜索**/
+.searchHeightPage{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-bottom: 1.333rem;
+}
+.searchContentBox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.searchBtnBox{
+	width: 100%;
+	height: 1.333rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: -webkit-flex;
+	display: flex;
+	background: #fff;
+}
+.searchBtnBox button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	flex:1;
+	background: #fff;
+	font-size: 0.373rem;
+	color: #21528C;
+	outline: none;
+}
+.searchBtnBox button:first-child{
+	border-right: 0.013rem solid #dedede;
+}
+.searchHeightPage dl.searchHeightBox{
+	width: 100%;
+	height: auto;
+}
+.searchHeightPage dl.searchHeightBox dt{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	box-sizing: border-box;
+	font-size:0.373rem;
+	color: #666666;
+	background-color: rgba(242, 242, 242, 0.5);
+	padding: 0 0.426rem;
+}
+.searchHeightPage dl.searchHeightBox dt span{
+	display: block;
+	float: left;
+	padding-left: 0.56rem;
+}
+.searchHeightPage dl.searchHeightBox dt.project_icon span{
+	background: url(../images/comm/search_project_icon.png) left center no-repeat;
+	background-size: 0.32rem;
+}
+.searchHeightPage dl.searchHeightBox dt.partition_icon span{
+	background: url(../images/comm/search_partition_icon.png) left center no-repeat;
+	background-size: 0.32rem;
+}
+.searchHeightPage dl.searchHeightBox dt.type_icon span{
+	background: url(../images/comm/search_type_icon.png) left center no-repeat;
+	background-size: 0.32rem;
+}
+.searchHeightPage dl.searchHeightBox dt.map_icon span{
+	background: url(../images/comm/search_map_icon.png) left center no-repeat;
+	background-size: 0.32rem;
+}
+.searchHeightPage dl.searchHeightBox dt.date_icon span{
+	background: url(../images/comm/search_date_icon.png) left center no-repeat;
+	background-size: 0.32rem;
+}
+.searchHeightPage dl.searchHeightBox dd{
+	width: 100%;
+	height: auto;
+}
+.itemsInputBox{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	overflow: hidden;
+	padding:  0.266rem 0.426rem;
+}
+.itemsInputBox input{
+	width: 100%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 0.373rem;
+	color: #B8B8B8;
+	background: #F2F2F2;
+	padding-left: 0.453rem;
+	box-sizing: border-box;
+	border-radius: 0.053rem;
+	outline: none;
+}
+.itemsGroupBtnBox{
+	width: 100%;
+	height: auto;
+	display: -webkit-flex;
+	display: flex;
+	padding: 0.373rem 0.426rem 0.266rem 0.426rem;
+	background: #FFFFFF;
+}
+.itemsGroupBtnBox span{
+	flex:1;
+	height: 0.666rem;
+	line-height: 0.666rem;
+	text-align: center;
+	border: 0.013rem solid #B8B8B8;
+	border-radius: 0.053rem;
+	font-size: 0.373rem;
+	color: #666666;
+	margin-right: 0.266rem;
+}
+.itemsGroupBtnBox i{
+	flex:1;
+	display: block;
+}
+.itemsGroupBtnBox span.selectBtnBox{
+	background: #21528C;
+	border: 0.013rem solid #21528C;
+	color: #fff;
+}
+.itemsGroupBtnBox span:last-child{
+	margin-right: 0;
+}
+.itemSingleBtnBox{
+	width: 100%;
+	height: auto;
+	display: -webkit-flex;
+	display: flex;
+	padding: 0 0.426rem 0.266rem 0.426rem;
+	background: #FFFFFF;
+	display: none;
+}
+.itemSingleBtnBox span{
+	flex:1;
+	height: 0.666rem;
+	line-height: 0.7rem;
+	text-align: center;
+	background: #F2F2F2;
+	border-radius: 0.053rem;
+	font-size: 0.373rem;
+	color: #666666;
+}
+.itemSingleBtnBox span.selectBtnBox{
+	color: #21528C;
+}
+.itemSingleBtnBox span:last-child{
+	margin-right: 0;
+}
+.searchHeight_projectsListBox{
+	width: 100%;
+	height: auto;
+	padding: 0 0.426rem;
+	background: #FFFFFF;
+	position: relative;
+	padding-bottom: 0.853rem;
+}
+.searchHeight_projectsListBox ul.projectItemsList{
+	width: 100%;
+	height: auto;
+	max-height: 2.4rem;
+	overflow: hidden;
+}
+.searchHeight_projectsListBox ul.showMoreList{
+	height: auto;
+	max-height: 8.3rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.searchHeight_projectsListBox ul.projectItemsList li{
+	width: 100%;
+	font-size: 0.32rem;
+	line-height: 0.853rem;
+	background: #FFFFFF;
+}
+.searchHeight_projectsListBox ul.projectItemsList li a{
+	display: inline-block;
+}
+.searchHeight_projectsListBox ul.projectItemsList li a{
+	color: #666666;
+}
+.searchHeight_projectsListBox a.lookMoreBtn{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: 0.32rem;
+	line-height: 0.9rem;
+	padding: 0 0.426rem;
+	box-sizing: border-box;
+	display: none;
+}
+.searchHeight_projectsListBox a.lookMoreBtn{
+	color: #21528C;
+}
+.selectProvinceBg,.selectDateBg{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0,.3);
+	display: block;
+	z-index: 2000;
+}
+.selectProvinceBox,.selectDateBox{
+	width: 80%;
+	height: 5.566rem;
+	z-index: 2001;
+	background-color: #FFF;
+	border-radius: 0.106rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.selectProvinceTitleBox,.selectDateTitleBox{
+	line-height: 1.23rem;
+    font-size: 0.426rem;
+    color: #333333;
+    text-align: center;
+    border-bottom: 0.013rem solid #dedede;
+}
+.selectProvinceContentBox{
+	width: 100%;
+	height: 4.5rem;
+	padding: 0.32rem 0;
+}
+.selectProvinceContentBox .selectProvinceScrollBox{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-content:flex-start;
+	align-items:center;
+	padding: 0 0.2rem;
+}
+.selectProvinceScrollBox span{
+	display: block;
+	width: 33.33%;
+	line-height: 0.5rem;
+	text-align: center;
+	font-size: 0.373rem;
+	margin-bottom: 0.4rem;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+}
+
+/** 选择时间插件的样式 */
+.selectDateBox{
+	height: 6.333rem;
+}
+.selectDateBox .selectDateTitleBox{
+	height: 1.333rem;
+	font-size: 0.426rem;
+	color: #333333;
+	line-height: 1.333rem;
+}
+.selectDateBox .selectDateContentBox{
+	width: 100%;
+	height: auto;
+}
+.dateTimePlugin{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	display: none;
+}
+.dateTimePlugin .dateSelectBg{
+	position: absolute;
+	width: 100%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	display: -webkit-flex;
+	display: flex;
+	top: 1.8rem;
+}
+.dateTimePlugin .dateSelectBg span{
+	display: inline-block;
+	flex:1;
+	border: #B8B8B8 solid 0.01rem;
+	border-radius: 0.266rem;
+	margin: 0 0.266rem;
+}
+.dateTimePlugin .selectDateTop{
+	width: 100%;
+	height: 1rem;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 0.32rem;
+	color: #B8B8B8;
+}
+.dateTimePlugin .selectDateTop span{
+	flex:1;
+	display: inline-block;
+	line-height: 1rem;
+	text-align: center;
+	color: #ccc;
+}
+.dateTimePlugin .selectDateContent{
+	width: 100%;
+	height: 2.4rem;
+	display: -webkit-flex;
+	display: flex;
+	margin-bottom: 0.4rem;
+	overflow: hidden;
+}
+.dateTimePlugin .selectDateContent > div{
+	position: relative;
+	flex:1;
+}
+.dateTimePlugin .selectDateContent ul{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.dateTimePlugin .selectDateContent ul li{
+	line-height: 0.8rem;
+	text-align: center;
+	color: #333;
+	font-size: 0.373rem;
+}
+.dateTimePlugin .selectDateButton{
+	width: 100%;
+	height: 1.2rem;
+	overflow: hidden;
+}
+.dateTimePlugin .selectDateButton button{
+	background: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 0.373rem;
+	color: #21528C;
+	width: 100%;
+	line-height: 1.2rem;
+	height: 1.2rem;
+	outline: none;
+}
+/** 选择时间插件的样式 */
+
+/* .dateTimePlugin{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: relative;
+	padding-top: 0.2rem;
+}
+.dateTimePlugin .selectDateContent{
+	width: 100%;
+	height: 2.4rem;
+	display: -webkit-flex;
+	display: flex;
+	margin-bottom: 0.2rem;
+	overflow: hidden;
+}
+.dateTimePlugin .selectDateContent > div{
+	position: relative;
+	flex:1;
+}
+.dateTimePlugin .selectDateContent ul{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.dateTimePlugin .selectDateContent ul li{
+	line-height: 0.8rem;
+	text-align: center;
+	color: #333;
+	font-size: 0.373rem;
+}
+.dateTimePlugin .selectDateTop{
+	width: 100%;
+	height: 1rem;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 0.32rem;
+	color: #B8B8B8;
+}
+.dateTimePlugin .selectDateTop span{
+	flex:1;
+	display: inline-block;
+	line-height: 1rem;
+	text-align: center;
+	color: #ccc;
+}
+.dateTimePlugin button{
+	background: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 0.373rem;
+	color: #21528C;
+	width: 100%;
+	line-height: 1.2rem;
+	height: 1.2rem;
+	outline: none;
+} */
+/**项目列表高级搜索*

@@ -1,0 +1,23 @@
+﻿{
+	"code":0,
+	"data":[
+		{
+			"id":1,
+			"title":"测试我的公告",
+			"mobileUrl":"http://www.flybirdsoft.com/wui",
+			"publishTime":"2018.1.12"
+		},
+		{
+			"id":2,
+			"title":"公告信息",
+			"mobileUrl":"http://www.flybirdsoft.com/wui",
+			"publishTime":"2018.1.12"
+		},
+		{
+			"id":5,
+			"title":"开发进度要合理评估",
+			"mobileUrl":"http://www.flybirdsoft.com/wui",
+			"publishTime":"2018.1.12"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+<div class="todoBox">
+	<div class="todoTabBox border-bottom-color">
+		<ul id="tabDom">
+			<li class="selectLi" data-type="1">
+				<a href="javascript:;">
+					<span class="selectBorder"></span>待办
+				</a>
+			</li>
+			<li data-type="2">
+				<a href="javascript:;">
+					<span class="selectBorder"></span>已办
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="m_common_search border-bottom-color">
+		<div class="m_common_search_relative">
+			<div class="m_common_search_input_box">
+				<i></i>
+				<input id="searchInput" type="text" name="" placeholder="关键字">
+				<span id="clearSearchVal"></span>
+				<button id="searchBtn" class="border-no-color">搜索</button>
+			</div>
+			<div class="m_common_search_relative_btn"></div>
+		</div>
+	</div>
+	<div class="todoContentBox">
+		<ul id="todoList" class="todoScrollBoxUl"></ul>
+	</div>
+	<div class="searchCommonBox" id="searchCommonBox">
+		<div class="searchCommentContent">
+			<div class="searchCommentTop">
+				<div>
+					<span class="fl">有<i id="resultNum"></i>个结果</span>
+					<button class="fr" id="clearSearchBtn">清空搜索</button>
+				</div>
+			</div>
+			<div class="searchCommentDown">
+				<ul id="searchListBox" class="todoScrollBoxUl"></ul>
+			</div>
+		</div>
+	</div>
+</div>

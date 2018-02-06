@@ -1,0 +1,111 @@
+<div class="viewBoxOptions">
+	<div class="viewBox-bar">
+		<dl>
+			<dt data-type="zoom" title="缩放" style="width:33%;">
+				<div class="zoomMenu"></div>
+			</dt>
+			<dt data-type="comment" title="批注" style="width:33%;">
+				<div class="commentMenu"></div>
+			</dt>
+<!-- 			<dt data-type="bgcolor" title="背景色">
+				<div class="bgcolorMenu"></div>
+			</dt> -->
+			<dt data-type="selectModel" title="选择模型" style="width:33%;">
+				<div class="selectModelMenu"></div>
+			</dt>
+		</dl>
+	</div>
+	<div class="viewBox-bar-menu" style="display:none;">
+		<dl data-type="comment" class="comment" style="display:none;">
+			<dd data-type="comment-rect" data-typeId="1" style="width:20%;">
+				<div>
+					<i class="comment-rect more-css-comm"></i>
+					<span>矩形</span>
+				</div>
+			</dd>
+			<dd data-type="comment-circle" data-typeId="2" style="width:20%;">
+				<div>
+					<i class="comment-circle more-css-comm"></i>
+					<span>圆形</span>
+				</div>
+			</dd>
+			<dd data-type="comment-cloud" data-typeId="4" style="display:none;">
+				<div>
+					<i class="comment-cloud more-css-comm"></i>
+					<span>云线</span>
+				</div>
+			</dd>
+			<dd data-type="comment-text" data-typeId="5" style="width:20%;">
+				<div>
+					<i class="comment-text more-css-comm"></i>
+					<span>文字</span>
+				</div>
+			</dd>
+			<dd data-type="comment-color" style="width:20%;">
+				<div>
+					<i class="comment-color more-css-comm"></i>
+					<span>颜色</span>
+				</div>
+			</dd>
+			<dd data-type="comment-save" style="width:20%;">
+				<div>
+					<i class="comment-save more-css-comm"></i>
+					<span>保存</span>
+				</div>
+			</dd>
+		</dl>
+	</div>
+	<ul class="filterDetail" style="display:none;">
+		<li data-state="checked" data-type="checkAll" style="border-bottom:1px solid #333;">
+			全部类型<i class="fa fa-check" aria-hidden="true"></i>
+		</li>
+		<!--data-state="checked|unchecked"-->
+		<li data-categoryId="{{categoryId}}" data-specialty="{{specialty}}" data-state="checked">
+			{{categoryName}}<i class="fa fa-check" aria-hidden="true"></i>
+		</li>
+	</ul>
+	<div class="paperDetail">
+		
+	</div>
+
+	<div class="showComponets" style="display:none;"></div>
+	<div style="display:none;">
+		<div id="model_colorDialog" style="display:none;">
+			<i>
+				<span data-color="#DA0015" title="红色" class="red"></span>
+			</i>
+			<i>
+				<span data-color="#F647AB" title="粉色" class="pink"></span>
+			</i>
+			<i>
+				<span data-color="#0084EB" title="蓝色" class="blue"></span>
+			</i>
+			<i>
+				<span data-color="#79D433" title="绿色" class="green"></span>
+			</i>
+			<i>
+				<span data-color="#FFE730" title="黄色" class="yellow"></span>
+			</i>
+			<i>
+				<span data-color="#FF8826" title="橘色" class="orange"></span>
+			</i>
+			<i>
+				<span data-color="#FFFFFF" title="白色" class="white"></span>
+			</i>
+			<i>
+				<span data-color="#333333" title="黑色" class="black"></span>
+			</i>
+		</div>
+	</div>
+	<div class="commentDialog" style="display:none;">
+		<div class="textArea">
+			<textarea id="commentText" placeholder="输入您的批注描述..."></textarea>
+		</div>
+		<div class="buttons">
+			<ul>
+				<li><span data-type="save">保存</span></li>
+				<li><span data-type="saveandshare">保存并分享</span></li>
+			</ul>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>XXXX管理平台</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-control" content="no-cache">
+<meta http-equiv="Cache" content="no-cache">
+<link rel="stylesheet" type="text/css" href="css/comm.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" type="text/css" href="css/Awesome/css/font-awesome.css" />
+</head>
+
+<body>
+<div id="mainHeader" class="mainHeader" style="display:block;">
+    <div class="mobileBar"></div>
+    <header>
+        <div class="header-close">
+            <a href="javascript:;" id="closeBtn">
+                <span class="header-close-1"></span>
+                <span class="header-close-2"></span>
+            </a>
+        </div>
+        <div class="header-return">
+            <a href="javaScript:;">
+                <span class="header-left">
+                    <span class="header-left-inner"></span>
+                </span>
+            </a>
+        </div>
+        <span id="mainHeaderTitle">XXXX管理平台</span>
+        <div class="header-popMenu-home">
+            <a href="#/index">&nbsp;</a>
+        </div>
+        <div class="header-popMenu">
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        <div id="headerPopMenu" class="headerPopMenu">
+            <div class="arrow"></div>
+            <div class="popMenuContent"></div>
+        </div>
+    </header>
+</div>
+<section id="mainContainer" class="mainContainer">
+
+</section>
+<footer>
+    <div class="footerBox" id="footerBox">
+        <div class="footer-box footer-box-select">
+            <a href="#/index">
+                <i class="footer-box-home"></i>
+                <span>首页</span>
+            </a>
+        </div>
+        <div class="footer-box">
+            <a href="#/Projects">
+                <i class="footer-box-model"></i>
+                <span>图纸模型</span>
+            </a>
+        </div>
+        <div class="footer-box">
+            <a href="#/flow">
+                <i class="footer-box-flow"></i>
+                <span>业务流程</span>
+            </a>
+        </div>
+        <div class="footer-box">
+            <a href="#/resource">
+                <i class="footer-box-resource"></i>
+                <span>资源</span>
+            </a>
+        </div>
+        <div class="footer-box">
+            <a href="#/service">
+                <i class="footer-box-service"></i>
+                <span>服务</span>
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+
+<!--all dialog doms-->
+<div class="common_commDialog">
+    <div class="commDialogContainer"></div>
+    <div class="commDialogButtons">
+        <div class="commDialogCancel">取消</div>
+        <div class="commDialogOk">确定</div>
+    </div>
+</div>
+
+<div class="tipDialogBox" id="tipDialogBox">
+    <div class="tipLeftLogoBox"><img src="images/comm/icon_sifang.png"></div>
+    <div class="tipRightLogoBox">
+        <p id="dialogMessage"></p>
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript" src="js/libs/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/libs/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/libs/js/cordova.js"></script>
+<script type="text/javascript" src="js/libs/iscroll/iscroll.js"></script>
+<script type="text/javascript" src="js/libs/wMobileDialog.js"></script>
+
+<script type="text/javascript" src="js/libs/FrontEndFrameWork.js"></script><!--SPA 框架-->
+
+<script type="text/javascript" src="js/common/Assister.js"></script>       <!--自定义功能或函数库-->
+
+<script type="text/javascript" src="js/App.js"></script>                   <!--App.init() 初始化App对象-->
+<script type="text/javascript" src="js/Url.js"></script>                   <!--restfull接口管理-->
+
+<script type="text/javascript" src="js/publish_config.js"></script>        <!--配置文件:打包与版本管理-->
+<script type="text/javascript" src="js/config.js"></script>                <!--web系统功能入口-->
+

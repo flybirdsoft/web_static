@@ -1,0 +1,105 @@
+.outerLoginBox{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+.outerLoginBox .outerLoginLogo{
+	width: 100%;
+	height: 4.64rem;
+}
+.outerLoginBox .outerLoginLogo img{
+	width: 100%;
+	height: 100%;
+}
+.outerLoginBox .outerLoginContent{
+	width: 100%;
+	height: 100%;
+	padding: 0.346rem 0.8rem 0 0.8rem;
+}
+.outerLoginBox .outerLoginContent .inputBox{
+	width: 100%;
+	height: 1.306rem;
+	border-bottom: #D9D9D9 1px solid;
+	position: relative;
+	padding: 0.453rem 0;
+}
+.outerLoginBox .outerLoginContent .inputBox .rememberMe{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: auto;
+	height: 100%;
+	line-height: 1.306rem;
+	font-size: 0.32rem;
+	background: url(../images/project/checkbox.png) left center no-repeat;
+	background-size: 0.32rem;
+	padding-left: 0.48rem;
+	color: #8E8E8E;
+	z-index: 100;
+}
+.outerLoginBox .outerLoginContent .inputBox .rememberMeSelect{
+	background: url(../images/project/checkbox_select.png) left center no-repeat;
+    background-size: 0.32rem;
+}
+.outerLoginBox .outerLoginContent .inputBox input{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 0.826rem;
+	padding-right: 0.32rem;
+	font-size: 0.373rem;
+	color: #292A2E;
+	outline: none;
+}
+.outerLoginBox .outerLoginContent .inputBox input::-webkit-input-placeholder{
+	color: #B8B8B8;
+}
+.outerLoginBox .outerLoginContent .inputBox:after{
+	content: "";
+	display: block;
+	width: 0.426rem;
+	height: 0.426rem;
+	background: url(../images/comm/user_name.png) center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	left: 0;
+	top: 0.44rem;
+}
+.outerLoginBox .outerLoginContent .passWordClass:after{
+	background: url(../images/comm/user_password.png) center no-repeat;
+	background-size: 100%;
+}
+.outerLoginBox .outerLoginContent .passWordClass input{
+	padding-right: 2rem;
+}
+.outerLoginBox .outerLoginContent button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	height: 1.066rem;
+	background: #21528C;
+	border-radius: 0.08rem;
+	font-size: 0.373rem;
+	color: #FFFFFF;
+	margin-top: 0.586rem;
+	outline: none;
+}
+.tipClass{
+	position: fixed;
+	height: 1.333rem;
+	line-height: 1.333rem;
+	background: #333333;
+	box-shadow: 0 0.053rem 0.066rem 0 rgba(0,0,0,0.24);
+	border-radius: 0.093rem;
+	text-align: center;
+	margin: 0 0.8rem;
+	bottom: 2.266rem;
+	left: 0;
+	right: 0;
+	font-size: 0.426rem;
+	color: #FFFFFF;
+	display: none;
+}

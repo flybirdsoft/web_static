@@ -1,0 +1,415 @@
+.flowBox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.flowBox .flowContentBox{
+	width: 100%;
+	height: 100%;
+	padding-top: 1.706rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.flowBox .flowContentBox ul.flowTopListBox{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.flowBox .flowContentBox ul.flowDownListBox{
+	margin-top: 0.266rem;
+	background: #fff;
+}
+.flowBox .flowContentBox ul li{
+	width: 100%;
+	height: 1.866rem;
+	position: relative;
+}
+
+.flowBox .flowContentBox ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-left: 0.4rem;
+}
+.flowBox .flowContentBox ul li a div{
+	width: 100%;
+	height: 100%;
+}
+.flowBox .flowContentBox ul li a i{
+	display: block;
+	position: absolute;
+}
+.flowBox .flowContentBox ul li a i.lxgh_color{
+	background: #97C963;
+	border-radius:50%;
+}
+.flowBox .flowContentBox ul li a i.sjbj_color{
+	background: #5ACCEA;
+	border-radius:50%;
+}
+.flowBox .flowContentBox ul li a i.gcjs_color{
+	background: #F2C500;
+	border-radius:50%;
+}
+.flowBox .flowContentBox ul li a i.yjyy_color{
+	background: #00BD9D;
+	border-radius:50%;
+}
+.flowBox .flowContentBox ul li a i.glyj_color{
+	background: #489EFE;
+	border-radius:50%;
+}
+.flowBox .flowContentBox ul li a i.iLogo{
+	width: 1.33rem;
+	height: 1.33rem;
+	left: 0.4rem;
+	top: 0.266rem;
+}
+.flowBox .flowContentBox ul li a i.iLogo img{
+	width: 100%;
+	height: 100%;
+}
+.flowBox .flowContentBox ul li a i.lxgh_color img,.flowBox .flowContentBox ul li a i.sjbj_color img,.flowBox .flowContentBox ul li a i.gcjs_color img,.flowBox .flowContentBox ul li a i.yjyy_color img,.flowBox .flowContentBox ul li a i.glyj_color img{
+	width: 0.533rem;
+	height: 0.533rem;
+	transform:translate(0.4rem,0.4rem);
+}
+.flowBox .flowContentBox ul li a i.iRightImg{
+	width: 0.32rem;
+	height: 0.32rem;
+	right: 0.4rem;
+	top: 0.773rem;
+	background: url("../images/comm/arrow_right.png") center no-repeat;
+	background-size: 100%;
+}
+.flowBox .flowContentBox ul li a h2{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	width: 100%;
+	height: 100%;
+	line-height: 1.866rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	font-size: 0.426rem;
+	color: #333333;
+	padding: 0 0.72rem 0 1.65rem;
+}
+
+.flowListBox .flowContentBox{
+	padding-top: 0;
+}
+
+/**管理依据样式**/
+.glyjPageBox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.glyjPageBox .tabBox{
+	width: 100%;
+	height: 1.2rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #F2F2F2;
+	display: flex;
+}
+.glyjPageBox .tabBox span{
+	height: 100%;
+	display: block;
+	flex:1;
+	font-size:0.426rem;
+	color: #333333;
+	text-align: center;
+	line-height: 1.2rem;
+	position: relative;
+}
+.glyjPageBox .tabBox span.selectSpan:after{
+	content: "";
+	display: block;
+	width: 1.866rem;
+	height: 0.053rem;
+	background: #21528C;
+	left: 50%;
+	bottom:0;
+	position: absolute;
+	transform:translate(-0.933rem,0);
+}
+.glyjPageBox .tabContentBox{
+	width: 100%;
+	height: 100%;
+	padding-top: 1.2rem;
+}
+.glyjPageBox .tabContentBox .contentListBox{
+	width: 100%;
+	height: 100%;
+	display: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.glyjPageBox .tabContentBox .contentListBox ul{
+	width: 100%;
+	height: auto;
+}
+.glyjPageBox .tabContentBox .contentListBox ul li{
+	width: 100%;
+	height: auto;
+	min-height: 1.333rem;
+	line-height: 1.333rem;
+	padding-left: 0.426rem;
+	box-sizing: border-box;
+	font-size: 0.4rem;
+	color: #333333;
+	background: #fff;
+}
+.glyjPageBox .tabContentBox .contentListBox ul li ul li{
+	padding-left: 0.8rem;
+}
+.glyjPageBox .tabContentBox .contentListBox ul li a,.glyjPageBox .tabContentBox .contentListBox ul li label{
+	width: 100%;
+	height: 1.333rem;
+	line-height: 1.333rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	font-size: 0.4rem;
+	color: #333333;
+	display: block;
+	position: relative;
+}
+.glyjPageBox .tabContentBox .contentListBox ul li a:after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0.32rem;
+	height: 0.32rem;
+	right: 0.4rem;
+	top: 0.505rem;
+	background: url("../images/comm/arrow_right.png") center no-repeat;
+	background-size: 100%;
+}
+.glyjDetailPageBox{
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0 0.8rem;
+	background: #fff;
+}
+.glyjDetailPageBox h2{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-size: 0.48rem;
+	color: #333333;
+	padding: 0.4rem 0;
+}
+.glyjDetailPageBox .glyjContentBox{
+	width: 100%;
+	height: auto;
+	padding: 0.4rem 0;
+}
+.glyjDetailPageBox .glyjContentBox img{
+	border: 0;
+	max-width: 100%;
+}
+.glyjDetailPageBox .glyjContentBox .imgBox {
+  text-align: center;
+  width: 100%;
+}
+.glyjDetailPageBox .glyjContentBox > div{
+	display: none;
+}
+.glyjDetailPageBox .glyjContentBox p{
+	font-size: 0.373rem;
+	color: #333333;
+	line-height: 0.533rem;
+}
+.glyjDetailPageBox .glyjContentBox > div > p{
+	text-indent: 2em;
+}
+.glyjDetailPageBox .glyjContentBox table {
+	border-collapse: collapse;
+	border-spacing: 0;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border: #000 solid 1px;
+}
+.glyjDetailPageBox .glyjContentBox table tr td p {
+  line-height: 30px;
+  padding: 0 20px;
+}
+.glyjDetailPageBox .glyjContentBox table tr td:nth-child(1) {
+  width: 25%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border-right: #000 solid 1px;
+}
+.glyjDetailPageBox .glyjContentBox table thead tr td {
+  height: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: #000 solid 1px;
+}
+.glyjDetailPageBox .glyjContentBox table thead tr td:nth-child(1) {
+  border-right: #000 solid 1px;
+}
+.glyjDetailPageBox .glyjContentBox table tbody tr td {
+  border-bottom: #000 solid 1px;//B8B8B8
+}
+/**管理依据样式**/
+/**flowTextList页面样式**/
+.flowTextList{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.flowTextList ul{
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: #fff;
+}
+.flowTextList ul li{
+	width: 100%;
+	padding-left: 0.426rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.flowTextList ul li a{
+	display: block;
+	line-height: 1.333rem;
+	font-size: 0.4rem;
+	color: #333333;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	padding-right: 0.96rem;
+}
+.flowTextList ul li a span{
+	color: #b8b8b8;
+}
+
+.flowTextList ul li a:after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0.32rem;
+	height: 0.32rem;
+	right: 0.4rem;
+	top: 0.505rem;
+	background: url("../images/comm/arrow_right.png") center no-repeat;
+	background-size: 100%;
+}
+/**flowTextList页面样式**/
+
+/*flowDetailPage页面样式*/
+.flowDetailPage{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.flowDetailContent{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.flowDetailContent h2{
+	margin: 0;
+	font-weight: normal;
+	width: 100%;
+	height: auto;
+	min-height: 1.466rem;
+	line-height: 0.8rem;
+	font-size: 0.48rem;
+	color: #333333;
+	padding: 0.3rem 0.853rem 0.3rem 0.533rem;
+	background: #fff;
+	box-sizing: border-box;
+}
+.flowDetailContent label{
+	width: 100%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	background: rgba(242,242,242, 0.5);
+	font-size: 0.32rem;
+	color: #666666;
+	padding-left: 0.533rem;
+	box-sizing: border-box;
+	display: block;
+}
+.flowDetailContent ul {
+	width: 100%;
+	height: auto;
+	background: #fff;
+	box-sizing: border-box;
+	padding-left: 0.533rem;
+	padding-bottom: 0.1rem;
+}
+.flowDetailContent ul li{
+	width: 100%;
+	height: auto;
+	min-height: 1.066rem;
+	position: relative;
+	padding-right: 0.533rem;
+}
+.flowDetailContent ul li i{
+	display: block;
+	position: absolute;
+	font-size: 0.32rem;
+	color: #666666;
+	font-style: normal;
+	line-height: 1.066rem;
+}
+.flowDetailContent ul li span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 0.3rem;
+	padding-left: 1.893rem;
+	padding-right: 0.533rem;
+	padding-bottom: 0.2rem;
+	box-sizing: border-box;
+	font-size: 0.32rem;
+	color: #333333;
+	line-height: 0.48rem;
+	font-weight: bold;
+}
+.flowDetailContent .flowDescBox{
+	width: 100%;
+	height: auto;
+	padding: 0.32rem 0;
+	font-size: 0.32rem;
+	color: #333333;
+	line-height: 0.48rem;
+	font-weight: bold;
+	background: #fff;
+	padding-left: 0.533rem;
+	padding-right: 0.533rem;
+}
+/*flowDetailPage页面样式*/
+.flowImgBg{
+	background: rgba(255, 255, 255, 0.8);
+	z-index: 9999;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+}
+.flowImgBg::-webkit-scrollbar {
+    width: 0px;
+}

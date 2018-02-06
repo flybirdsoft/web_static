@@ -1,0 +1,484 @@
+.serviceBox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: rgba(242, 242, 242, 0.5);
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.serviceBox ul{
+	width: 100%;
+	height: auto;
+}
+.serviceBox ul li{
+	width: 100%;
+	height: auto;
+	padding-left: 0.453rem;
+	background: #fff;
+	box-sizing: border-box;
+}
+.serviceBox ul li:nth-child(1){
+	margin-bottom: 0.266rem;
+}
+.serviceBox ul li:nth-child(4){
+	margin-top: 0.266rem;
+}
+.serviceBox ul li a{
+	display: block;
+	width: 100%;
+	height: 1.866rem;
+	line-height: 1.866rem;
+	position: relative;
+	padding-right: 0.453rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	padding-left: 1.786rem;
+	font-size: 0.4266rem;
+	color: #333333;
+	box-sizing: border-box;
+}
+.serviceBox ul li a:after{
+	width: 0.32rem;
+	height: 0.32rem;
+	content: '';
+	display: block;
+	position: absolute;
+	right: 0.453rem;
+	top: 0.773rem;
+	background: url("../images/comm/arrow_right.png") center no-repeat;
+	background-size: 100%;
+}
+.serviceBox ul li a i{
+	position: absolute;
+	width: 1.333rem;
+	height: 1.333rem;
+	left: 0;
+	top: 0.2665rem;
+}
+.serviceBox ul li a i img{
+	width: 100%;
+	height: 100%;
+}
+.serviceBox .erweima_box{
+	width: 100%;
+	height: auto;
+}
+.serviceBox .erweima_box .erweima_img{
+	width: 3.2rem;
+	height: 3.2rem;
+	margin: 0.933rem auto 0.266rem auto;
+}
+.serviceBox .erweima_box .erweima_img img{
+	width: 100%;
+	height: 100%;
+}
+.serviceBox .erweima_box .erweima_text{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 0.32rem;
+	color: #B8B8B8;
+}
+/** 相关资源列表样式 */
+.serviceRelatedBox{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(242, 242, 242, 0.5);
+}
+.serviceRelatedBox ul.serviceRelatedListBox{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #fff;
+}
+.serviceRelatedBox ul.serviceRelatedListBox li{
+	width: 100%;
+	height: auto;
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+}
+.serviceRelatedBox ul.serviceRelatedListBox li a{
+	display: inline-block;
+	width: 100%;
+	height: 1.733rem;
+	position: relative;
+	box-sizing: border-box;
+	padding-left: 1.76rem;
+	padding-top: 0.3rem;
+}
+.serviceRelatedBox ul.serviceRelatedListBox li a i{
+	width: 1.28rem;
+	height: 1.28rem;
+	position: absolute;
+	left: 0;
+	top:0.226rem;
+}
+.serviceRelatedBox ul.serviceRelatedListBox li a i img{
+	width: 100%;
+	height: 100%;
+}
+.serviceRelatedBox ul.serviceRelatedListBox li a h2{
+	font-size: 0.373rem;
+	color: #333333;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0.2rem;
+	width: 100%;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	box-sizing: border-box;
+	padding-right: 0.4rem;
+}
+.serviceRelatedBox ul.serviceRelatedListBox li a p{
+	height: 0.4rem;
+	padding-right: 0.4rem;
+}
+.serviceRelatedBox ul.serviceRelatedListBox li a p span{
+	display: inline-block;
+}
+.serviceRelatedBox ul.serviceRelatedListBox li a p span.service_date{
+	font-size: 0.32rem;
+	color: #666666;
+}
+.serviceRelatedBox ul.serviceRelatedListBox li a p span.service_size{
+	font-size: 0.266rem;
+	color: #B8B8B8;
+}
+/** 相关资源列表样式 */
+/** 建议反馈列表样式 */
+.serviceFeedbackBox{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(242, 242, 242, 0.5);
+	position: relative;
+}
+.serviceFeedbackBox .bottomBtn{
+	width: 100%;
+	height: 1.33rem;
+	line-height: 1.33rem;
+	background-color: #fff;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.serviceFeedbackBox .bottomBtn a{
+	display: inline-block;
+	font-size: 0.373rem;
+	color: #21528C;
+	background: url(../images/comm/addFeedback_icon.png) left center no-repeat;
+	background-size: 0.32rem;
+	padding-left: 0.56rem;
+}
+.listFeedbackBoxBox{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 1.33rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+	
+}
+.listContentBox{
+	width: 100%;
+	height: auto;
+}
+.listContentBox:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.listContentBox dl{
+	width: 100%;
+	height: auto;
+	padding-left: 0.4rem;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	box-sizing: border-box;
+	margin-bottom: 0.4rem;
+	background-color: #fff;	
+	float: left;
+}
+.listContentBox dl:last-child{
+	margin-bottom: 0;
+}
+.listContentBox dl dt{
+	float: left;
+	width: 0.64rem;
+	height: 0.64rem;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.listContentBox dl dt img{
+	width: 100%;
+	height: 100%;
+}
+.listContentBox dl dd{
+	padding-left: 0.96rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.listContentBox dl dd em{
+	font-style: normal;
+	font-size: 0.32rem;
+	color: #666666;
+	margin-top: 0.1rem;
+	display: inline-block;
+}
+.listContentBox dl dd h2{
+	margin: 0;
+	padding: 0;
+	font-size: 0.373rem;
+	color: #333333;
+	margin-top: 0.373rem;
+	
+	font-weight: normal;
+	padding-right: 0.4rem;
+	box-sizing: border-box;
+	word-wrap:break-word;
+	word-break:break-all;
+}
+.listContentBox dl dd p{
+	font-size: 0.32rem;
+	color: #333333;
+	line-height: 0.48rem;
+	padding-right: 0.4rem;
+	margin-top: 0.373rem;
+}
+.listContentBox dl dd p.noContent{
+	display: none;
+}
+.listContentBox dl dd .uploadImgBox{
+	height: auto;
+	// min-height: 1.2rem;
+	display: none;
+}
+.listContentBox dl dd .uploadImgBox ul{
+	height: auto;
+	// min-height: 1.2rem;
+	padding-top: 0.266rem;
+	padding-bottom: 0.266rem;
+}
+.listContentBox dl dd .uploadImgBox:after,.listContentBox dl dd .uploadImgBox ul:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.listContentBox dl dd .uploadImgBox ul li{
+	width: 1.2rem;
+	height: 1.2rem;
+	float: left;
+	margin-right: 0.266rem;
+}
+.listContentBox dl dd .uploadImgBox ul li img{
+	width: 100%;
+	height: 100%;
+}
+.listContentBox dl dd .uploadAttachmentBox{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	display: none;
+}
+.listContentBox dl dd .uploadAttachmentBox ul {
+	width: 100%;
+	height: auto;
+	/* overflow-x: hidden;
+	overflow-y: auto; */
+}
+.listContentBox dl dd .uploadAttachmentBox li{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	border-bottom:0.013rem solid #dedede;
+}
+.listContentBox dl dd .uploadAttachmentBox li:last-child{
+	border-bottom:none;
+}
+.listContentBox dl dd .uploadAttachmentBox li a{
+	display: inline-block;
+	width: 100%;
+	height: 1.733rem;
+	position: relative;
+	box-sizing: border-box;
+	padding-left: 1.76rem;
+	padding-top: 0.266rem;
+}
+.listContentBox dl dd .uploadAttachmentBox li a i{
+	width: 1.28rem;
+	height: 1.28rem;
+	position: absolute;
+	left: 0;
+	top:0.226rem;
+}
+.listContentBox dl dd .uploadAttachmentBox li a i img{
+	width: 100%;
+	height: 100%;
+}
+.listContentBox dl dd .uploadAttachmentBox li a h2{
+	font-size: 0.373rem;
+	color: #333333;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0.2rem;
+	width: 100%;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	box-sizing: border-box;
+	padding-right: 0.4rem;
+}
+.listContentBox dl dd .uploadAttachmentBox li a p{
+	height: 0.4rem;
+	padding-right: 0.4rem;
+}
+.listContentBox dl dd .uploadAttachmentBox li a p span{
+	display: inline-block;
+}
+.listContentBox dl dd .uploadAttachmentBox li a p span.service_date{
+	font-size: 0.32rem;
+	color: #666666;
+}
+.listContentBox dl dd .uploadAttachmentBox li a p span.service_size{
+	font-size: 0.266rem;
+	color: #B8B8B8;
+}
+.listContentBox dl dd .showUploadTrue{
+	display: block;
+}
+.listContentBox dl dd .replyBox{
+	width: auto;
+	height: auto;
+	line-height: 0.48rem;
+	padding: 0.266rem 0.293rem;
+	font-size: 0.32rem;
+	color: #333333;
+	background: #E1F1FF;
+	border-radius:0.053rem;
+	margin-right: 0.4rem;
+	margin-top: 0.266rem;
+	text-align: left;
+	display: none;
+	position: relative;
+}
+.listContentBox dl dd .haveReplyTrue{
+	display: block;
+}
+.listContentBox dl dd .replyBox:before{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 0.2rem solid transparent;
+	border-right: 0.2rem solid transparent;
+	border-bottom: 0.2rem solid #E1F1FF;
+	position: absolute;
+	left: 0.4rem;
+	top: -0.2rem;
+	z-index: 100;
+
+}
+/** 建议反馈列表样式 */
+/** 添加建议反馈样式 */
+.addFeedback{
+	width: 100%;
+	height: 100%;
+}
+.addFeedback .addFeedbackTitle{
+	width: 100%;
+	height: auto;
+	padding: 0.4rem 0.533rem 0 0.533rem;
+	background-color: #fff;
+}
+.addFeedback .addFeedbackTitle input{
+	margin: 0;
+	padding:0;
+	border: 0;
+	width: 100%;
+	padding: 0 0 0.4rem 0;
+	outline: none;
+	font-size: 0.373rem;
+	color: #333;
+	border-bottom:0.013rem solid #dedede;
+}
+.addFeedback .addFeedbackContent{
+	width: 100%;
+	height: auto;
+	min-height: 6.4rem;
+	padding: 0.4rem 0.533rem;
+	padding-bottom: 0;
+	background: #fff;
+}
+.addFeedback .addFeedbackContent textarea{
+	margin: 0;
+	padding:0;
+	border: 0;
+	width: 100%;
+	height: auto;
+	min-height: 4.388rem;
+	outline: none;
+	font-size: 0.373rem;
+	color: #333;
+	line-height: 0.533rem;
+}
+.addFeedback .addFeedbackContent ul{
+	width: 100%;
+	height: auto;
+	display: -webkit-flex; /* Safari */
+ 	display: flex;
+ 	flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.addFeedback .addFeedbackContent ul li{
+	width: 1.066rem;
+	height: 1.066rem;
+	float: left;
+	margin-right:0.2rem; 
+	margin-bottom:0.2666rem; 
+	position: relative;
+}
+.addFeedback .addFeedbackContent ul li span{
+	width: 100%;
+	height: 100%;
+	line-height: 1.066rem;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 0.03rem;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.8);
+}
+.addFeedback .addFeedbackContent ul li:nth-child(7n){
+	margin-right:0.2666rem; 
+	margin-left: 0;
+}
+.addFeedback .addFeedbackContent ul li:nth-child(2){
+	margin-left: 0;
+}
+.addFeedback .addFeedbackContent ul li img{
+	width: 100%;
+	height: 100%;
+}
+.addFeedback .addFeedbackBtn{
+	width: 100%;
+	padding: 0.666rem 0.533rem;
+}
+.addFeedback .addFeedbackBtn button{
+	width: 100%;
+	height: 1.066rem;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: #21528C;
+	border-radius: 0.08rem;
+	font-size: 0.373rem;
+	color: #FFFFFF;
+	outline: none;
+}
+/** 添加建议反馈样式 */

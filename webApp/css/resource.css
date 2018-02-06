@@ -1,0 +1,59 @@
+.resourceBox,.resourceFamilyBox{
+	width: 100%;
+	height: 100%;
+	background: rgba(242, 242, 242, 0.5);
+	position: relative;
+}
+.resourceBox .m_resource_type_list_box{
+	width: 100%;
+	height: 100%;
+}
+.resourceBox .m_resource_type_list_box ul{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.resourceBox .m_resource_type_list_box ul li{
+	background: #fff;
+}
+.resourceBox .m_common_search{
+	top:1.8666rem;
+}
+.resourceBox .m_common_version_notes .goBackIndex{
+	background: url(../images/resource/go_back_index.png) left center no-repeat;
+	background-size: 0.32rem;
+}
+.resourceBox .m_common_version_notes .goBackIndex a{
+	color: #FFFFFF;
+}
+.resourceContentBox{
+	width: 100%;
+	height: 100%;
+	padding-top: 3.5726rem;
+	overflow: hidden;
+}
+.resourceContentBox .resourceContentScrollBox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.resourceFamilyBox .m_common_crumbs{
+	top: 0;
+}
+.resourceFamilyBox .m_common_search{
+	top: 0.8rem;
+}
+.resourceFamilyBox .resourceContentBox{
+	padding-top: 2.506rem;
+}
+.resourceBox .resourceContentBox .resourceContentScrollBox ul,.resourceFamilyBox .resourceContentBox .resourceContentScrollBox ul{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 0;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: none;
+}

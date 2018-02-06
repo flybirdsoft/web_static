@@ -1,0 +1,538 @@
+.notesListBox{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+    position: relative;
+}
+.notesListBox .m_common_search{
+	top:1.0666rem;
+}
+.notesListBox .notesTopBar{
+	width: 100%;
+	height: 1.045rem;
+	position: absolute;
+	left:0;
+	top:2.772rem;
+	padding: 0 0.3733rem;
+	background: #fff;
+	z-index: 101;
+}
+.notesListBox .notesTopBar span{
+	display: block;
+	width: auto;
+	height: 100%;
+	line-height: 1.045rem;
+	font-size: 0.32rem;
+	color: #666666;
+}
+.notesListBox .notesTopBar span i{
+	font-style: normal;
+}
+.notesListBox .notesTopBar .notesCheckbox{
+	height: 100%;
+	line-height: 1.045rem;
+	font-size: 0.32rem;
+	color: #666666;
+	background: url("../images/project/checkbox.png") left center no-repeat;
+	background-size: 0.32rem;
+	padding-left: 0.48rem;
+}
+.notesListBox .notesTopBar .notesSelectCheckbox{
+	background: url("../images/project/checkbox_select.png") left center no-repeat;
+	background-size: 0.32rem;
+}
+.notesListBox .notesListContentBox{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding-top: 3.817rem;
+}
+.notesListBox .notesListContentBox .notesScrollBox{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+ul.notesScrollBoxUl{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+ul.notesScrollBoxUl li{
+	width: 100%;
+	height: auto;
+	// height: 2.4rem;
+	position: relative;
+	background: #fff;
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+}
+ul.notesScrollBoxUl li a{
+	display: block;
+	width: 100%;
+	padding: 0.3733rem 0;
+	position: relative;
+}
+ul.notesScrollBoxUl li .notesLogoBox{
+	width: 1.066rem;
+	height: 1.066rem;
+	position: absolute;
+	left: 0;
+	top: 0.376rem;
+}
+ul.notesScrollBoxUl li .notesLogoBox img{
+	width: 100%;
+	height: 100%;
+}
+ul.notesScrollBoxUl li .notesDescBox{
+	width: 100%;
+	height: 100%;
+	padding:0 1.329rem;
+}
+ul.notesScrollBoxUl li .notesDescBox dl{
+	width: 100%;
+}
+ul.notesScrollBoxUl li .notesDescBox dl dt{
+	width: 100%;
+	min-height: 0.96rem;
+	font-size: 0.3733rem;
+	color: #333333;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	margin-bottom: 0.22rem;
+	word-break:break-all; 
+	word-wrap:break-word
+}
+ul.notesScrollBoxUl li .notesDescBox dl dd{
+	font-size: 0.32rem;
+	color: #666666;
+}
+ul.notesScrollBoxUl li .notesOperationBox{
+	width: 0.8rem;
+	position: absolute;
+	right: 0.32rem;
+	top: 0;
+}
+ul.notesScrollBoxUl li .notesOperationBox a{
+	font-size: 0.32rem;
+	color: #21528C;
+	display: inline-block;
+}
+ul.notesScrollBoxUl li .notesOperationBox .notesTypeBox{
+	display: inline-block;
+	width: 0.48rem;
+	padding-top: 0.3733rem;
+}
+ul.notesScrollBoxUl li .notesOperationBox .notesTypeBox img{
+	width: 100%;
+	height: 100%;
+}
+/**start 批注详情页面的样式**/
+.notesDetailsBox{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	padding-top: 4.266rem;
+	padding-bottom: 1.333rem;
+}
+.notesDetailsBox .notesDescBox{
+	width: 100%;
+	height: 4.266rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #f2f2f2;
+	padding:0.4rem;
+}
+.notesDetailsBox .notesDescBox dl{
+	width: 100%;
+	height: auto;
+	min-height: 1.6rem;
+	margin-bottom: 0.3rem;
+}
+.notesDetailsBox .notesDescBox dl dt{
+	width: 1.6rem;
+	height: 1.6rem;
+	float: left;
+}
+.notesDetailsBox .notesDescBox dl dt img{
+	width: 100%;
+	height: 100%;
+}
+.notesDetailsBox .notesDescBox dl dd{
+	padding-left: 0.453rem;
+	font-size: 0.373rem;
+	color: #333333;
+	line-height: 0.48rem;
+	height: auto;
+	max-height: 2.8rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+	white-space:normal; 
+	word-break:break-all;
+}
+.notesDetailsBox .notesDescBox .notesDescBottomBox{
+	width: 100%;
+	height: 0.453rem;
+}
+.notesDetailsBox .notesDescBox .notesDescBottomBox .notesNameTime span{
+	display: inline-block;
+	height: 0.453rem;
+}
+.notesDetailsBox .notesDescBox .notesDescBottomBox .notesNameTime span.notesName{
+	font-size: 0.32rem;
+	color: #333333;
+	margin-right: 0.213rem;
+}
+.notesDetailsBox .notesDescBox .notesDescBottomBox .notesNameTime span.notesTime{
+	font-size: 0.32rem;
+	color: #2A2A2A;
+	height: 0.453rem;
+}
+.notesDetailsBox .notesDescBox .notesDescBottomBox .notesOperation a{
+	display: inline-block;
+	font-size: 0.32rem;
+	color: #21528C;
+	height: 0.453rem;
+	float: left;
+}
+.notesDetailsBox .notesDescBox .notesDescBottomBox .notesOperation a.aIcon{
+	color: #000;
+	line-height: 0.4rem;
+	margin: 0 0.2rem;
+}
+.notesDetailsBox .addCommentBox{
+	width: 100%;
+	height: 1.333rem;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	line-height: 1.333rem;
+}
+.notesDetailsBox .addCommentBox a{
+	display: inline-block;
+	background: url(../images/project/comment_icon.png) left center no-repeat;
+	background-size: 0.426rem;
+	padding-left: 0.666rem;
+	font-size: 0.373rem;
+	color: #21528C;
+}
+.notesDetailsBox .notesContentBox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-top: 0.933rem;
+	background: #f2f2f2;
+}
+.notesDetailsBox .notesContentBox .notesContentTop{
+	width: 100%;
+	height: 0.933rem;
+	line-height: 0.933rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	font-size: 0.32rem;
+	color: #666666;
+	padding-left: 0.4rem;
+}
+.notesDetailsBox .notesContentBox .notesContentTop i{
+	font-style: normal;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li{
+	width: 100%;
+	height: auto;
+	min-height: 2rem;
+	position: relative;
+	background: #fff;
+	padding:  0.4rem;
+	box-sizing: border-box;
+	margin-bottom: 0.266rem;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl{
+	width: 100%;
+	height: auto;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dt{
+	float: left;
+	width: 0.64rem;
+	height: 0.64rem;
+	border-radius: 50%;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dt img{
+	width: 100%;
+	height: 100%;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd{
+	position: relative;
+	padding-left: 0.96rem;
+	box-sizing: border-box;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd p{
+	width: 100%;
+	height: auto;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd p.ddNameTime{
+	width: 100%;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	margin-bottom: 0.4rem;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd p span{
+	display: block;
+	float: left;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd p span.ddName{
+	font-size: 0.32rem;
+	color: #333333;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd p span.ddTime{
+	font-size: 0.32rem;
+	color: #2A2A2A;
+	margin-left: 0.266rem;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd p.ddDesc{
+	padding-bottom: 0.213rem;
+	font-size: 0.32rem;
+	color: #333333;
+	line-height: 0.48rem;
+	word-wrap:break-word
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd a.ddDelete{
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 0.32rem;
+	color: #21528C;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd .ddCommentListBox{
+	width: 100%;
+	height: auto;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd .ddCommentListBox .ddCommentComponent{
+	width: 100%;
+	height:auto;
+	padding-top: 0.213rem;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd .ddCommentListBox .ddCommentComponent a{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd .ddCommentListBox .ddCommentComponent a i{
+	display: inline-block;
+	float: left;
+	width: 0.96rem;
+	height: 0.96rem;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd .ddCommentListBox .ddCommentComponent a i img{
+	width: 100%;
+	height: 100%;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd .ddCommentListBox .ddCommentComponent a p{
+	font-size: 0.32rem;
+	color: #333333;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	padding-left: 0.64rem;
+	margin-bottom: 0.1rem;
+	width: 87%;
+	float: left;
+	box-sizing: border-box;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.notesDetailsBox .notesContentBox .notesCommentBox ul li dl dd .ddCommentListBox .ddCommentComponent a span{
+	display: inline-block;
+	font-size: 0.266rem;
+	color: #B8B8B8;
+	padding-left: 0.64rem;
+}
+.notesEditeDialog{
+	width: 100%;
+	height: 3.466rem;
+	background: #FFFFFF;
+	border: 1px solid #B8B8B8;
+	border-radius: 2px;
+	padding: 0.2133rem;
+	display: none;
+}
+.notesEditeDialog textarea{
+	margin: 0;
+	padding:0;
+	border: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	font-size: 0.373rem;
+	color: #333333;
+	line-height: 0.533rem;
+}
+.notesCommentLoading{
+	background: #fff;
+}
+.notesCommentNullData{
+	/* display: block;
+	background: #fff; */
+}
+.notesCommentNullData{
+	/* width: 100%;
+	height: auto;
+	padding: 0.4rem;
+	display: none; */
+}
+.notesCommentNullData .nullDataImg{
+	margin-top: 0;
+}
+/**end 批注详情页面的样式**/
+/**start 批注查看图片页面的样式**/
+.notesImgBox{
+	width: 100%;
+	height: 100%;
+    display: table;
+    text-align: center;
+}
+.notesImgBox span{
+    display: table-cell;
+    vertical-align: middle;
+}
+.notesImgBox span img{
+	max-width: 100%;
+	height: auto;
+    vertical-align: middle;
+}
+/**end 批注查看图片页面的样式**/
+/**start 批注添加评论页面的样式**/
+.addNotesCommnet{
+	width: 100%;
+	height: 100%;
+}
+.addNotesCommnet .addCommentContent{
+	width: 100%;
+	height: auto;
+	min-height: 6.4rem;
+	padding: 0.4rem 0.533rem;
+	padding-bottom: 0;
+	background: #fff;
+}
+.addNotesCommnet .addCommentContent textarea{
+	margin: 0;
+	padding:0;
+	border: 0;
+	width: 100%;
+	height: auto;
+	min-height: 4.388rem;
+	outline: none;
+	font-size: 0.373rem;
+	color: #333;
+	line-height: 0.533rem;
+}
+.addNotesCommnet .addCommentContent ul{
+	width: 100%;
+	height: auto;
+	display: -webkit-flex; /* Safari */
+ 	display: flex;
+ 	flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.addNotesCommnet .addCommentContent ul li{
+	width: 1.066rem;
+	height: 1.066rem;
+	float: left;
+	margin-right:0.2rem; 
+	margin-bottom:0.2666rem; 
+	position: relative;
+}
+.addNotesCommnet .addCommentContent ul li span{
+	width: 100%;
+	height: 100%;
+	line-height: 1.066rem;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 0.03rem;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.8);
+}
+.addNotesCommnet .addCommentContent ul li:nth-child(7n){
+	margin-right:0.2666rem; 
+	margin-left: 0;
+}
+.addNotesCommnet .addCommentContent ul li:nth-child(2){
+	margin-left: 0;
+}
+.addNotesCommnet .addCommentContent ul li img{
+	width: 100%;
+	height: 100%;
+}
+.addNotesCommnet .addCommentBtn{
+	width: 100%;
+	padding: 0.666rem 0.533rem;
+}
+.addNotesCommnet .addCommentBtn button{
+	width: 100%;
+	height: 1.066rem;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: #21528C;
+	border-radius: 0.08rem;
+	font-size: 0.373rem;
+	color: #FFFFFF;
+	outline: none;
+}
+/**end 批注添加评论页面的样式**/
+.textBoxNotes{
+	width: 100%;
+	background: #21528C;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	font-size: 0.32rem;
+	color: #FFFFFF;
+	line-height: 0.48rem;
+	padding: 0.266rem 0.4rem;
+	overflow: hidden;
+}
+.upIconBtn{
+	position: relative;
+}
+.upIconBtn:after{
+	content: "";
+	display: block;
+	background: url(../images/comm/version_icon.png) right center no-repeat;
+	background-size: 0.2133rem;
+	width: 0.2133rem;
+	height: 0.2133rem;
+	position: absolute;
+	right: -0.4266rem;
+	top: 10px;
+	transition: transform 0.4s ease-in-out;
+    -webkit-transition: transform 0.4s ease-in-out;
+    -moz-transition: transform 0.4s ease-in-out;
+    -o-transition: transform 0.4s ease-in-out;
+}
+.downIconBtn:after{
+	transform:rotate(180deg);
+}

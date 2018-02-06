@@ -1,0 +1,175 @@
+<div id="viewBox" class="viewBox">
+
+</div>
+<div class="viewBoxOptions">
+	<div class="viewBox-bar">
+		<dl style="width:auto;">
+			<dt data-type="guigexinghao" title="规格型号" style="width:33%;">
+				<div class="guigexinghaoMenu font28">规格型号</div>
+			</dt>
+			<dt data-type="bgcolor" title="背景设置" style="width:33%;">
+				<div class="backgroundcolorMenu font28">背景设置</div>
+			</dt>
+			<dt data-type="info" title="查看属性" style="width:33%;">
+				<div class="infomationMenu font28">查看属性</div>
+			</dt>
+		</dl>
+	</div>
+	
+	<div id="fileName" class="fileName font28"></div>
+
+	<div class="currentXH">标准</div>
+
+	<div class="viewBox-bar-menu" style="display:none;">
+		<dl data-type="comment" class="comment" style="display:none;">
+			<dd data-type="comment-rect" data-typeId="1">
+				<div>
+					<i class="comment-rect more-css-comm"></i>
+					<span>矩形</span>
+				</div>
+			</dd>
+			<dd data-type="comment-circle" data-typeId="2">
+				<div>
+					<i class="comment-circle more-css-comm"></i>
+					<span>圆形</span>
+				</div>
+			</dd>
+			<dd data-type="comment-cloud" data-typeId="4">
+				<div>
+					<i class="comment-cloud more-css-comm"></i>
+					<span>云线</span>
+				</div>
+			</dd>
+			<dd data-type="comment-text" data-typeId="5">
+				<div>
+					<i class="comment-text more-css-comm"></i>
+					<span>文字</span>
+				</div>
+			</dd>
+			<dd data-type="comment-color">
+				<div>
+					<i class="comment-color more-css-comm"></i>
+					<span>颜色</span>
+				</div>
+			</dd>
+			<dd data-type="comment-save">
+				<div>
+					<i class="comment-save more-css-comm"></i>
+					<span>保存</span>
+				</div>
+			</dd>
+		</dl>
+
+		<dl data-type="more" class="more" style="display:none;">
+			<dd data-type="more-filter">
+				<div>
+					<i class="more-filter more-css-comm"></i>
+					<span>过滤树</span>
+				</div>
+			</dd>
+			<dd data-type="more-grid">
+				<div>
+					<i class="more-grid more-css-comm"></i>
+					<span>轴网定位</span>
+				</div>
+			</dd>
+			<dd data-type="more-bgcolor">
+				<div>
+					<i class="more-bgcolor more-css-comm"></i>
+					<span>黑白色</span>
+				</div>
+			</dd>
+			<dd data-type="more-hide">
+				<div>
+					<i class="more-hide more-css-comm"></i>
+					<span>构件隐藏</span>					
+				</div>
+
+			</dd>
+			<dd data-type="more-z">
+				<div>
+					<i class="more-z more-css-comm"></i>
+					<span>z轴锁定</span>		
+				</div>
+
+			</dd>
+			<dd data-type="more-paper">
+				<div>
+					<i class="more-paper more-css-comm"></i>
+					<span>查看图纸</span>
+				</div>
+			</dd>
+		</dl>
+	</div>
+	<ul class="XingHaoDetail page" style="display:none;">
+		<li data-id="{{id}}" class="font28">
+			{{name}}
+		</li>
+	</ul>
+	<div class="bgcolorDetail page" style="display:none">
+		<li class="font28" data-color="#FFF">背景白色</li>
+		<li class="font28" data-color="#000">背景黑色</li>
+	</div>
+
+	<ul data-type="info" class="info page">
+		<li class="info-bar" style="display:none">{{name}} : {{value}}</li>
+		<ul class="info-list">
+			<li class="info-item" style="display:none">
+				<dl>
+					<dt>{{group}}<i class="fa fa-angle-down" aria-hidden="true"></i></dt>
+					{{dd-list}}
+				</dl>
+			</li>
+		</ul>
+	</ul>
+	<div class="showComponets" style="display:none;"></div>
+
+	<div class="miniMap" style="display:none;"></div>
+
+	<div id="model_gridDialog">
+		<div style="border-bottom:1px solid #D0d0d0;">
+			<input type="text" name="x" id="grid-x" placeholder="X轴" />
+		</div>
+		<div>
+			<input type="text" name="y" id="grid-y" placeholder="Y轴"/>
+		</div>
+	</div>
+	<div id="model_colorDialog">
+		<i>
+			<span data-color="#DA0015" title="红色" class="red"></span>
+		</i>
+		<i>
+			<span data-color="#F647AB" title="粉色" class="pink"></span>
+		</i>
+		<i>
+			<span data-color="#0084EB" title="蓝色" class="blue"></span>
+		</i>
+		<i>
+			<span data-color="#79D433" title="绿色" class="green"></span>
+		</i>
+		<i>
+			<span data-color="#FFE730" title="黄色" class="yellow"></span>
+		</i>
+		<i>
+			<span data-color="#FF8826" title="橘色" class="orange"></span>
+		</i>
+		<i>
+			<span data-color="#FFFFFF" title="白色" class="white"></span>
+		</i>
+		<i>
+			<span data-color="#333333" title="黑色" class="black"></span>
+		</i>
+	</div>
+
+	<div class="commentDialog" style="display:none;">
+		<div class="textArea">
+			<textarea id="commentText" placeholder="输入您的批注描述..."></textarea>
+		</div>
+		<div class="buttons">
+			<ul>
+				<li><span data-type="save">保存</span></li>
+				<li><span data-type="saveandshare">保存并分享</span></li>
+			</ul>
+		</div>
+	</div>
+</div>

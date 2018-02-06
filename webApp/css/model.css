@@ -1,0 +1,737 @@
+/*
+BIM模型样式
+write by wuweiwei
+*/
+.viewBox{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right: 0;
+	background-color: #FFF;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+.viewBoxOptions .viewBox-bar{
+	position: absolute;
+	bottom:0;
+	height: 1.449rem;
+	width:100%;
+	border-top:1px solid #e6e6e6;
+	background-color: #FFF;
+	z-index: 101;
+}
+.viewBoxOptions .viewBox-bar dl{
+	width:100%;
+	margin:0 auto;
+	height: 100%;
+}
+.viewBoxOptions .viewBox-bar dl dt{
+	float: left;
+	width:16.6%;
+	height: 100%;
+	line-height: 100%;
+	position: relative;
+display: -webkit-box; 
+-webkit-box-orient: horizontal; 
+-webkit-box-pack: center;
+-webkit-box-align: center;
+}
+.viewBoxOptions .viewBox-bar-menu{
+	position: absolute;
+	bottom:1.449rem;
+	width:100%;
+	height:1.449rem;
+	background-color: #FFF;
+	z-index: 100;
+}
+.viewBoxOptions .viewBox-bar-menu dl{
+	height:  100%;
+	width:100%;
+	border-top:1px solid #e6e6e6;
+}
+.viewBoxOptions .viewBox-bar-menu dl dd{
+	float: left;
+	position: relative;
+}
+.viewBoxOptions .viewBox-bar-menu dl dd.no-left-border{
+	border-left:none;
+}
+
+.viewBoxOptions .viewBox-bar-menu dl dd div{
+	border-left:1px solid #e6e6e6;
+	width:100%;
+	height: 100%;
+}
+
+.viewBoxOptions .viewBox-bar-menu dl.comment dd{
+	width:16.6%;
+	height: 100%;
+}
+.viewBoxOptions .viewBox-bar-menu dl.more dd{
+	width:16.6%;
+	height: 100%;
+}
+
+/*图纸模型*/
+.viewBoxOptions .info{
+	position: absolute;
+	bottom:1.449rem;
+	width:100%;
+	/*height: 6.13rem;*/
+	height: 0;
+	background-color: #FFF;
+	overflow: auto;
+	border-top:1px solid #d3d3d3;
+	display: none;
+	overflow: hidden;
+}
+.viewBoxOptions .info li.info-bar{
+	background-color: #f2f2f2;
+	min-height: 0.8rem;
+	line-height: 0.8rem;
+	padding-left:0.2rem;
+	top:0;
+	width:100%;
+	z-index: 1000;
+}
+.viewBoxOptions .info ul.info-list{
+	height: 5.33rem;
+	overflow: auto;
+}
+.viewBoxOptions .info li.info-item{
+	min-height: 1.333rem;
+	border-top:1px solid #d3d3d3;
+}
+
+.viewBoxOptions .info li.info-item dl dt{
+	height: 1.333rem;
+	line-height: 1.333rem;
+	padding-left:0.2rem;
+	position: relative;
+}
+.viewBoxOptions .info li.info-item dl dt i{
+	display: inline-block;
+	float: right;
+	margin-right: 0.2rem;
+	font-size: 0.5rem;
+	position: absolute;
+	top:40%;
+	right: 0.2rem;
+	transition: all .2s;
+	width:0.5rem;
+	height: 0.5rem;
+}
+.viewBoxOptions .info li.info-item dl dt i.up{
+	transform:rotate(-180deg);
+}
+.viewBoxOptions .info li.info-item dl dd{
+	line-height: 0.8rem;
+	height: 0;
+	overflow: hidden;
+}
+.viewBoxOptions .info li.info-item dl dd div{
+	border-top:1px solid #d3d3d3;
+	padding-left:0.5rem;
+	background-color: #f8f8f8;
+	overflow: hidden;
+}
+.viewBoxOptions .info li.info-item dl dd div label{
+	display: block;
+	float: left;
+	word-break: break-all;
+    word-wrap: break-word;
+}
+.viewBoxOptions .info li.info-item dl dd div label.info-item-left{
+	width:30%;
+}
+.viewBoxOptions .info li.info-item dl dd div label.info-item-right{
+	width: 70%;
+	color:#9a9a9a;
+}
+.viewBoxOptions .showComponets{
+	position: absolute;
+	right:20px;
+	top:20px;
+	background-image: url(../images/model/showAll.png);
+	width:1.066rem;
+	height: 1.066rem;
+	background-size: 100% 100%;
+}
+
+/*model menu style*/
+.viewBoxOptions .viewBox-bar dl dt .angleMenu{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/home.png);
+	background-size: 100% 100%;
+}
+.viewBoxOptions .viewBox-bar dl dt .commentMenu{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/comment.png);
+	background-size: 100% 100%;
+}
+.viewBoxOptions .viewBox-bar dl dt .infoMenu{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/attr.png);
+	background-size: 100% 100%;
+}
+.viewBoxOptions .viewBox-bar dl dt .moreMenu{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/more.png);
+	background-size: 100% 100%;
+}
+
+.viewBoxOptions .viewBox-bar dl dt .angleMenuD{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/homeD.png);
+	background-size: 100% 100%;
+}
+
+.viewBoxOptions .viewBox-bar dl dt .infoMenuD{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/attrD.png);
+	background-size: 100% 100%;
+}
+.viewBoxOptions .viewBox-bar dl dt .moreMenuD{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/moreD.png);
+	background-size: 100% 100%;
+}
+
+.viewBoxOptions .viewBox-bar dl dt .filterMenu{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/filter.png);
+	background-size: 100% 100%;
+}
+.viewBoxOptions .viewBox-bar dl dt .filterMenuD{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/filterD.png);
+	background-size: 100% 100%;
+}
+
+.viewBoxOptions .viewBox-bar dl dt .hideMenu{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/hide.png);
+	background-size: 100% 100%;
+}
+
+.viewBoxOptions .viewBox-bar dl dt .hideMenuD{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/hideD.png);
+	background-size: 100% 100%;
+}
+
+.viewBoxOptions .viewBox-bar dl dt .gridMenu{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/grid.png);
+	background-size: 100% 100%;
+}
+
+.viewBoxOptions .viewBox-bar dl dt .gridMenuD{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/gridD.png);
+	background-size: 100% 100%;
+}
+
+.viewBoxOptions .viewBox-bar dl dt .moreMenu{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/more.png);
+	background-size: 100% 100%;
+}
+.viewBoxOptions .viewBox-bar dl dt .moreMenuD{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/moreD.png);
+	background-size: 100% 100%;
+}
+
+/*更多的菜单:过滤树、轴网定位、黑白色、构建隐藏、z轴锁定、查看图纸*/
+.viewBoxOptions .viewBox-bar-menu dl div span{
+	display: block;
+	text-align: center;
+	position: absolute;
+	bottom:0.2rem;
+	width:100%;
+	color:#B8B8B8;
+	font-size: 0.266rem;
+}
+.viewBoxOptions dl i.more-css-comm{
+	/*更多菜单项的通用样式*/
+	width:0.533rem;
+	height: 0.533rem;
+	background-size: 100% 100%;
+	position: absolute;
+	left:50%;
+	margin-left:-0.2765rem;
+	margin-top:0.2rem;
+}
+.viewBoxOptions .viewBox-bar-menu dl.more i.more-filter{
+	/*过滤树*/
+	background-image: url(../images/model/filter.png);
+}
+.viewBoxOptions .viewBox-bar-menu dl.more i.more-grid{
+	/*轴网定位*/
+	background-image: url(../images/model/grid.png);
+}
+.viewBoxOptions .viewBox-bar-menu dl.more i.more-bgwhite{
+	/*黑白色--白色*/
+	background-image: url(../images/model/bgwhite.png);
+}
+.viewBoxOptions .viewBox-bar-menu dl.more i.more-bgblack{
+	/*黑白色--黑色*/
+	background-image: url(../images/model/bgblack.png);
+}
+.viewBoxOptions .viewBox-bar-menu dl.more i.more-hide{
+	/*隐藏构建*/
+	background-image: url(../images/model/hide.png);
+}
+.viewBoxOptions .viewBox-bar-menu dl.more i.more-z{
+	/*Z轴锁定*/
+	background-image: url(../images/model/z-open.png);
+}
+.viewBoxOptions .viewBox-bar-menu dl.more i.more-paper{
+	/*查看图纸*/
+	background-image: url(../images/model/lookPaper.png);
+}
+
+.viewBoxOptions .viewBox-bar-menu dl.comment i.comment-rect{
+	/*批注矩形*/
+	background-image: url(../images/model/comment-rect.png);
+}
+.viewBoxOptions .viewBox-bar-menu dl.comment i.comment-circle{
+	/*批注原型*/
+	background-image: url(../images/model/comment-circle.png);
+}
+.viewBoxOptions .viewBox-bar-menu dl.comment i.comment-cloud{
+	/*批注云线*/
+	background-image: url(../images/model/comment-cloud.png);
+}
+.viewBoxOptions .viewBox-bar-menu dl.comment i.comment-text{
+	/*批注保存*/
+	background-image: url(../images/model/comment-text.png);
+}
+.viewBoxOptions .viewBox-bar-menu dl.comment i.comment-color{
+	/*批注保存*/
+	background-image: url(../images/model/comment-color.png);
+}
+.viewBoxOptions .viewBox-bar-menu dl.comment i.comment-save{
+	/*批注保存*/
+	background-image: url(../images/model/comment-save.png);
+}
+
+#model_gridDialog{
+	height:2.666rem;
+	width:100%;
+	border:1px solid #D0d0d0;
+	border-radius:6px;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+#model_gridDialog div{
+	height:50%;
+}
+#model_gridDialog div input{
+	height:100%;
+	width: 100%;
+	border:none;
+	background-color: transparent;
+	text-align: center;
+	font-size: 0.3866rem;
+}
+#model_gridDialog div input:focus{
+	outline: none;
+}
+
+
+/*过滤树*/
+.viewBoxOptions .filterDetail{
+	position: absolute;
+	background-color: #000;
+	opacity: 0.6;
+	/*width:2.7rem;*/
+	top:0;
+	bottom:1.449rem;
+	overflow: auto;
+}
+.viewBoxOptions .filterDetail li{
+	color:#FFF;
+	height:0.96rem;
+	background-color: #000;
+	line-height: 0.96rem;
+	padding-left:10px;
+	overflow: hidden;
+	position: relative;
+	padding-right: 0.7rem;
+}
+.viewBoxOptions .filterDetail li:hover{
+	color:#FFF;
+	height:0.96rem;
+	background-color: #000;
+}
+.viewBoxOptions .filterDetail li i{
+	position: absolute;
+	right: 0;
+	top:0;
+	font-size: 0.34rem;
+	height: 0.96rem;
+	line-height: 0.96rem;
+	margin-right: 5px;
+}
+.viewBoxOptions .filterDetail li i:before{
+	background-color: #3e82f7;
+	border-radius:3px;
+}
+
+
+#model_colorDialog{
+	overflow: hidden;
+}
+
+#model_colorDialog i{
+	width:25%;
+	height: auto;
+	float: left;
+	display: block;
+	margin-bottom:20px;
+}
+#model_colorDialog i span{
+	width: 1.333rem;
+	height: 1.333rem;
+	border-radius: 0.667rem;
+	display: block;
+	margin:0 auto;
+}
+#model_colorDialog i span.red{
+	background-color: #DA0015;
+}
+#model_colorDialog i span.pink{
+	background-color: #F647AB;
+}
+#model_colorDialog i span.blue{
+	background-color: #0084EB;
+}
+#model_colorDialog i span.green{
+	background-color: #79D433;
+}
+#model_colorDialog i span.yellow{
+	background-color: #FFE730;
+}
+#model_colorDialog i span.orange{
+	background-color: #FF8826;
+}
+#model_colorDialog i span.white{
+	background-color: #FFFFFF;
+	border:1px solid #aaa;
+}
+#model_colorDialog i span.black{
+	background-color: #333333;
+}
+
+.viewBoxOptions .commentDialog{
+	position: absolute;
+	background-color: #F2F2F2;
+    top: 0;
+    width: 100%;
+    top:0;
+    bottom:0;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.viewBoxOptions .commentDialog .textArea{
+	position: absolute;
+	top:0;
+	width: 100%;
+	bottom:1.7rem;
+	background-color: #FFF;
+}
+.viewBoxOptions .commentDialog .textArea textarea{
+	display: block;
+	width:94%;
+	height:92%;
+	margin:0 auto;
+	margin-top:3%;
+	border:none;
+	resize:none;
+	padding:0px;
+	font-size:0.37rem;
+}
+.viewBoxOptions .commentDialog .textArea textarea:focus{
+	outline:none;
+}
+.viewBoxOptions .commentDialog .buttons{
+	height: 1.4rem;
+	padding-top:10px;
+	position: absolute;
+	bottom:10px;
+	width: 100%;
+}
+.viewBoxOptions .commentDialog ul{
+	overflow:hidden;
+}
+.viewBoxOptions .commentDialog ul li{
+	float: left;
+	width:50%;
+}
+.viewBoxOptions .commentDialog ul li span{
+	display: block;
+	width:90%;
+	margin:0 auto;
+	height: 1.06rem;
+	background-color: #21528C;
+	border-radius:10px;
+	color:#FFF;
+	line-height: 1.06rem;
+	text-align: center;
+	font-size:0.37rem;
+}
+
+.dwgModel{;
+	position: relative;
+}
+
+.bim {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+}
+.bim img{
+	border:none;
+}
+.bim .mod-dwg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+}
+.bim .scene {
+    position: relative;
+}
+
+.bim .mod-dwg .view {
+    position: relative;
+}
+.bim .mod-dwg .tile {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.bim .modelBar{
+	position: absolute;
+	bottom:1.45rem;
+	height: auto;
+    z-index: 1000;
+    background-color: #FFF;
+    width: 100%;
+    display: none;
+}
+.bim .modelBar .modelSelect{
+	height: auto;
+}
+.bim .modelBar .modelSelect span{
+	display: none;
+}
+.bim .modelBar .modelSelect ul.modelList li{
+	height: 1.3rem;
+	line-height: 1.3rem;
+	text-align:center;
+	color:#21528C;
+	border-top:1px solid #e6e6e6;
+}
+.viewBoxOptions .viewBox-bar dl dt .zoomMenu{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/zoom.png);
+	background-size: 100% 100%;
+}
+.viewBoxOptions .viewBox-bar dl dt .zoomMenuD{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/zoomD.png);
+	background-size: 100% 100%;
+}
+.viewBoxOptions .viewBox-bar dl dt .bgcolorMenu{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/bgcolor.png);
+	background-size: 100% 100%;
+}
+.viewBoxOptions .viewBox-bar dl dt .selectModelMenu{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/selectModel.png);
+	background-size: 100% 100%;
+}
+.viewBoxOptions .viewBox-bar dl dt .selectModelMenuD{
+	width:0.7466rem;
+	height: 0.7466rem;
+	background-image: url(../images/model/selectModelD.png);
+	background-size: 100% 100%;
+}
+
+/*单文件模型,图纸列表*/
+.viewBoxOptions .paperDetail{
+	position: absolute;
+	bottom:2.898rem;
+	width:100%;
+	/*height: 6.13rem;*/
+	height: 0;
+	background-color: #FFF;
+	overflow: auto;
+	border-top:1px solid #d3d3d3;
+	display: none;
+}
+.viewBoxOptions .paperDetail li.paperDetail-bar{
+	background-color: #f2f2f2;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	padding-left:0.2rem;
+}
+.viewBoxOptions .paperDetail li.paperDetail-item{
+	min-height: 1rem;
+	border-top:1px solid #d3d3d3;
+	line-height: 1rem;
+	padding-left:0.25rem;
+}
+.viewBoxOptions .paperDetail li.paperDetail-item a{
+	display: block;
+	width:100%;
+	height: 100%;
+}
+
+/*规格型号*/
+.viewBoxOptions .XingHaoDetail{
+	position: absolute;
+	bottom:1.449rem;
+	width:100%;
+	/*height: 6.13rem;*/
+	height: auto;
+	background-color: #FFF;
+	overflow: auto;
+	border-top:1px solid #d3d3d3;
+	display: none;
+}
+.viewBoxOptions .XingHaoDetail li{
+	height: 1.46rem;
+	line-height: 1.46rem;
+	text-align: center;
+}
+
+.viewBoxOptions .currentXH{
+	position: absolute;
+	bottom:1.449rem;
+	width:100%;
+	background-color: #FFF;
+	height: 1.3rem;
+	line-height: 1.3rem;
+	text-align: center;
+}
+
+.viewBoxOptions .bgcolorDetail{
+	position: absolute;
+	bottom:1.449rem;
+	width:100%;
+	/*height: 6.13rem;*/
+	height: auto;
+	background-color: #FFF;
+	overflow: auto;
+	border-top:1px solid #d3d3d3;
+	display: none;	
+}
+.viewBoxOptions .bgcolorDetail li{
+	height: 1.46rem;
+	line-height: 1.46rem;
+	text-align: center;
+	border-bottom:1px solid #e3e3e3;
+}
+.viewBoxOptions .viewBox-bar div{
+	color: #21528C ;
+}
+
+.viewBoxOptions .fileName{
+	background-color:#FFF;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	position: absolute;
+	width:100%;
+}
+/*
+通用字体
+*/
+.font28,.fontbig{
+	font-size: 0.37rem;
+}
+
+.setTextNotes{
+	width: 100%;
+	height: auto;
+	display: none;
+}
+.setTextNotes p{
+	width: 100%;
+	text-align: center;
+}
+.setTextNotes textarea{
+	margin: 0;
+	padding: 0.06rem 0 0 0.06rem;
+	width: 100%;
+	font-size: 0.373rem;
+	color: #333333;
+	line-height: 0.533rem;
+	outline: none;
+}
+
+
+/*浮动菜单*/
+.viewBoxOptions ul.floatMenu{
+	position:absolute;
+	top:0.2rem;
+	right:0.2rem;
+}
+.viewBoxOptions ul.floatMenu li{
+	width:1.2rem;
+	height: 1.2rem;
+	margin-bottom:0.1rem;
+	border-radius:0.6rem;
+	background-size: 100% 100%;
+}
+.viewBoxOptions ul.floatMenu li.home{
+	background-image: url(../images/model/home.png);
+}
+.viewBoxOptions ul.floatMenu li.zlock{
+	background-image: url(../images/model/zlock.png);
+}
+
+.viewBoxOptions ul.floatMenu li.zunlock{
+	background-image: url(../images/model/zunlock.png);
+}
+
+.viewBoxOptions ul.floatMenu li.cancelHide{
+	background-image: url(../images/model/cancelHide.png);
+}
+
+canvas{
+	outline: none;
+}

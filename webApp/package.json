@@ -1,0 +1,21 @@
+{
+  "name": "frontend-framework",
+  "version": "1.0.0",
+  "description": "This is standard SPA framework",
+  "main": "index.js",
+  "dependencies": {
+    "node-basis": "^1.0.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "SPA",
+    "front",
+    "end",
+    "framework",
+    "wuweiwei"
+  ],
+  "author": "wuweiwei",
+  "license": "ISC"
+}
