@@ -4,8 +4,9 @@
 <br><br><br>
 ### 项目启动
 * 1.命令行进入webApp目录
-* 2.npm install             //安装依赖包 node-basis ,node-basis是一个类似express的插件
-* 3.npm start 或 node app.js
+* 2.npm install             //安装依赖包 node-basis ,node-basis是一个类似express的插件
+* 3.npm start 或 node app.js  
+  //注意：如果80端口冲突，请打开app.js文件修改监听端口号basis.run(80)。新版的Node-basis已经改为basis.start(端口号)
 * 4.localhost/index.html
 
 ### 项目说明
