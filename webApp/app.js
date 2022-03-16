@@ -16,8 +16,8 @@ basis.controller("interface",function(req,res,argv){
 	res.end();
 });
 
-basis.run(80); /*listener 80 port*/
-
+//basis.run(80); /*listener 80 port*/
+basis.start(80); /*listener 80 port*/
 /*
 注意：在浏览器中输入 localhost/index.html
 */
